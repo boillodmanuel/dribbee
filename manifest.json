@@ -1,0 +1,22 @@
+{
+  "short_name": "Dribbee",
+  "name": "Dribbee - Optimisez votre activité de service à domicile",
+  "icons": [
+    {
+      "src": "images/logo_jdhe.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/logo_jdhe@2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/logo_jdhe@4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html?utm_source=homescreen"
+}

@@ -1,0 +1,46 @@
+service: default
+runtime: python27
+api_version: 1
+threadsafe: true
+
+default_expiration: "0m"
+
+handlers:
+# re-direct to index.html if no path is given: no cache
+- url: /
+  static_files: index.html
+  upload: index.html
+  expiration: "0m"
+  secure: always
+
+# re-direct to index.html: no cache
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+  expiration: "0m"
+  secure: always
+
+# static resources
+- url: /(.*(css|js|png|jpg))$
+  static_files: \1
+  upload: .*\.(css|js|png|jpg)$
+  expiration: "10m"
+
+# redirect any other URL to index.html: no cache
+- url: /(.*)
+  static_files: index.html
+  upload: index.html
+  expiration: "0m"
+  secure: always
+
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^\.gitignore$
+- ^\package\.json$
+- ^\package-lock\.json$
+- ^README.md$
+- node_modules/
