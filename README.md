@@ -13,12 +13,14 @@ gcloud app deploy
 
 - Social network (partage ou j'aime ?), 
 - heatmap, 
-- mixpanel, 
--popup inscription timer, 
-- audit google perf, 
-- SEO schema.org / json ld
-- manifest icons
+- popup inscription timer, 
 
+# Done
+- google tag manager
+- mixpanel
+- audit web google, 
+- manifest.json
+- schema.org / json-ld
 
 # Resources
 - Google Tag Manager: https://developers.google.com/tag-manager/devguide
