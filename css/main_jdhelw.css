@@ -1045,9 +1045,10 @@ li.slide.s-first-visible-section .s-section {
 }
 
 .s-common-button {
-    background: #2eb6dc;
-    border-radius: 100px;
+    background: #21a1c4;
     color: #fff;
+    border: 1px solid #25b3da;
+    border-radius: 100px;
     cursor: pointer;
     display: inline-block;
     font-size: 24px;
@@ -1146,14 +1147,6 @@ li.slide.s-first-visible-section .s-section {
 
 .s-variation-default #s-nav ul li a:hover {
     color: #34d2fd
-}
-
-.s-variation-default .s-common-button {
-    background: #2eb6dc
-}
-
-.s-variation-default .s-common-button:hover {
-    background: #32c9f2
 }
 
 a.contact {
