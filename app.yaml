@@ -21,9 +21,9 @@ handlers:
   secure: always
 
 # static resources
-- url: /(.*(css|js|png|jpg))$
+- url: /(.*(css|js|png|jpg|json))$
   static_files: \1
-  upload: .*\.(css|js|png|jpg)$
+  upload: .*\.(css|js|png|jpg|json)$
   expiration: "10m"
 
 # redirect any other URL to index.html: no cache

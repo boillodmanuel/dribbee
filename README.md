@@ -10,10 +10,9 @@ gcloud app deploy
 
 
 # TODO 
-
-- Social network (partage ou j'aime ?), 
-- heatmap, 
+ 
 - popup inscription timer, 
+- CONTENU - INDEXATION, PARTAGE, SITE
 
 # Done
 - google tag manager
@@ -21,8 +20,23 @@ gcloud app deploy
 - audit web google, 
 - manifest.json
 - schema.org / json-ld
+- partage social
+- heatmap 
+
+
+# Tracking
+
+- Google Analytics: https://analytics.google.com
+- Mixpanel: https://mixpanel.com
+- Facebook: https://developers.facebook.com/apps/167294237262244/
+- Google Tag Manager: https://tagmanager.google.com
+- HeatMap: https://insights.hotjar.com/sites/820537
 
 # Resources
+
 - Google Tag Manager: https://developers.google.com/tag-manager/devguide
-- SEO : https://developers.google.com/search/docs/guides/search-features
-- Manifest : https://developers.google.com/web/fundamentals/web-app-manifest
+- SEO: https://developers.google.com/search/docs/guides/search-features
+- Manifest: https://developers.google.com/web/fundamentals/web-app-manifest
+- Sharing social button: http://codepen.io/sunnysingh/pen/OPxbgq
+- Smoothscroll: https://github.com/cferdinandi/smooth-scroll
+- Uncess: npm install uncss
