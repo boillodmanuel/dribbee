@@ -9,12 +9,13 @@ gcloud app deploy
 ```
 
 
-# TODO 
- 
+# TODO
+
 - popup inscription timer, 
 - CONTENU - INDEXATION, PARTAGE, SITE
 
 # Done
+
 - google tag manager
 - mixpanel
 - audit web google, 
@@ -27,6 +28,7 @@ gcloud app deploy
 # Tracking
 
 - Google Analytics: https://analytics.google.com
+- Facebook Analytics: https://www.facebook.com/analytics
 - Mixpanel: https://mixpanel.com
 - Facebook: https://developers.facebook.com/apps/167294237262244/
 - Google Tag Manager: https://tagmanager.google.com

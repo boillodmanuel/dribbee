@@ -469,7 +469,7 @@ ul.slides li.slide {
 }
 
 .s-signup-form .s-email-form-fields-group .s-email-form-field input[type=text],
-.s-signup-form .s-email-form-fields-group .s-email-form-field input[type=email]{
+.s-signup-form .s-email-form-fields-group .s-email-form-field input[type=email] {
     -webkit-appearance: none;
     background: #fff;
     border: 1px solid #bbb;
@@ -480,12 +480,12 @@ ul.slides li.slide {
 }
 
 .s-signup-form .s-email-form-fields-group .s-email-form-field input[type=text]:focus,
-.s-signup-form .s-email-form-fields-group .s-email-form-field input[type=email]:focus{
+.s-signup-form .s-email-form-fields-group .s-email-form-field input[type=email]:focus {
     outline: none
 }
 
 .s-bg-light-text .s-signup-form .s-email-form-fields-group .s-email-form-field input[type=text],
-.s-bg-light-text .s-signup-form .s-email-form-fields-group .s-email-form-field input[type=email]{
+.s-bg-light-text .s-signup-form .s-email-form-fields-group .s-email-form-field input[type=email] {
     border-color: transparent
 }
 
@@ -499,7 +499,7 @@ ul.slides li.slide {
 }
 
 .s-signup-form .s-email-form-fields-group .s-email-form-field input[type=text],
-.s-signup-form .s-email-form-fields-group .s-email-form-field input[type=email]{
+.s-signup-form .s-email-form-fields-group .s-email-form-field input[type=email] {
     width: 220px
 }
 
@@ -513,19 +513,21 @@ ul.slides li.slide {
     zoom: 1
 }
 
-.s-signup-form input[type=submit]{
+.s-signup-form input[type=submit] {
     max-width: 100%;
+    -webkit-appearance: none;
 }
 
 .s-signup-form input.mce_inline_error {
     border: 2px solid #e85c41 !important;
 }
+
 .s-signup-form div.mce_inline_error,
-#mce-error-response{
+#mce-error-response {
     display: inline-block;
     margin: 2px 0 1em 0;
     padding: 5px 10px;
-    background-color: rgba(255,255,255,0.85);
+    background-color: rgba(255, 255, 255, 0.85);
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -1157,6 +1159,7 @@ li.slide.s-first-visible-section .s-section {
 a.contact {
     color: #1e93b3;
 }
+
 .s-section {
     min-height: 100vh;
     box-sizing: border-box;
@@ -1181,6 +1184,7 @@ a.contact {
 .share-links {
     line-height: 10px;
 }
+
 .email-share-button {
     display: inline-block;
     vertical-align: top;
@@ -1189,6 +1193,7 @@ a.contact {
     background-color: lightblue;
     border-radius: 4px;
 }
+
 .email-share-button a {
     padding: 1px 10px 1px 9px;
     position: relative;
@@ -1200,6 +1205,7 @@ a.contact {
     outline: 0;
     text-decoration: none;
 }
+
 .email-share-button i {
     display: inline-block;
     top: 4px;
@@ -1224,6 +1230,7 @@ a.contact {
     font-weight: normal;
     font-style: normal;
 }
+
 .share-btn-icon {
     font-family: 'share-buttons';
     speak: none;
@@ -1236,15 +1243,19 @@ a.contact {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .share-btn-email .share-btn-icon:before {
     content: "\e945";
 }
+
 .share-btn-facebook .share-btn-icon:before {
     content: "\ea8c";
 }
+
 .share-btn-twitter .share-btn-icon:before {
     content: "\ea91";
 }
+
 .share-btn,
 .share-btn *,
 .share-btn *:before,
@@ -1252,6 +1263,7 @@ a.contact {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .share-btn {
     position: relative;
     display: inline-block;
@@ -1273,6 +1285,7 @@ a.contact {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
+
 .share-btn:hover,
 .share-btn:focus {
     background: #d3d3d3;
@@ -1280,23 +1293,27 @@ a.contact {
     text-decoration: none;
     color: #111;
 }
+
 .share-btn:active {
     background: #c7c7c7;
     border-color: #adadad;
     text-decoration: none;
     color: #111;
 }
+
 .share-btn.share-btn-sm {
     height: 20px;
     font-size: 10px;
     padding: 0 8px;
     line-height: 1.6;
 }
+
 .share-btn.share-btn-lg {
     height: 28px;
     font-size: 15px;
     line-height: 1.4;
 }
+
 .share-btn .share-btn-text-sr {
     position: absolute;
     width: 1px;
@@ -1307,60 +1324,92 @@ a.contact {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
 .share-btn.share-btn-branded {
     color: #fff;
 }
+
 .share-btn.share-btn-branded.share-btn-twitter {
     background: #1b95e0;
     border-color: #1b95e0;
 }
+
 .share-btn.share-btn-branded.share-btn-twitter:hover,
 .share-btn.share-btn-branded.share-btn-twitter:focus {
     background: #3ea1ec;
     border-color: #2795e9;
 }
+
 .share-btn.share-btn-branded.share-btn-twitter:active {
     background: #2795e9;
     border-color: #1689e0;
 }
+
 .share-btn.share-btn-branded.share-btn-facebook {
     background: #4267b2;
     border-color: #4267b2;
 }
+
 .share-btn.share-btn-branded.share-btn-facebook:hover,
 .share-btn.share-btn-branded.share-btn-facebook:focus {
     background: #344e86;
     border-color: #2d4373;
 }
+
 .share-btn.share-btn-branded.share-btn-facebook:active {
     background: #2d4373;
     border-color: #263961;
 }
+
 .share-btn.share-btn-branded.share-btn-email {
     background: #3399ff;
     color: #fff;
     border-color: #3399ff;
 }
+
 .share-btn.share-btn-branded.share-btn-email:hover,
 .share-btn.share-btn-branded.share-btn-email:focus {
     background: #198cff;
     border-color: #007fff;
 }
+
 .share-btn.share-btn-branded.share-btn-email:active {
     background: #007fff;
     border-color: #0073e5;
 }
+
 .share-btn.share-btn-twitter .share-btn-icon,
 .share-btn.share-btn-email .share-btn-icon {
     position: relative;
     top: 1px;
 }
+
 @-moz-document url-prefix() {
     .share-btn.share-btn-twitter .share-btn-icon,
     .share-btn.share-btn-email .share-btn-icon {
         top: 0;
     }
 }
+
 .share-btn .share-btn-text {
     padding-left: 2px;
+}
+
+.s-section-1 .s-section {
+    padding-top: 100px;
+    background: transparent url(/images/header-background_jdhryek.jpg) no-repeat fixed 0 0 / cover;
+}
+
+.s-section-3 .s-section {
+    background: transparent url(/images/form-background_hfjkegh.jpg) no-repeat fixed 0 0 / cover;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    /* CSS specific to iOS devices */
+    .s-section-1 .s-section {
+        background-attachment: scroll;
+    }
+    .s-section-3 .s-section {
+        background-attachment: scroll;
+    }
 }
