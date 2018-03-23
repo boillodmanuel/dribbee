@@ -20,11 +20,17 @@ handlers:
   expiration: "0m"
   secure: always
 
+# manifest
+- url: /manifest.json
+  static_files: manifest.json
+  upload: manifest.json
+  expiration: "1d"
+
 # static resources
-- url: /(.*(css|js|png|jpg|json))$
+- url: /(.*(css|js|png|jpg|))$
   static_files: \1
-  upload: .*\.(css|js|png|jpg|json)$
-  expiration: "10m"
+  upload: .*\.(css|js|png|jpg|)$
+  expiration: "10d"
 
 # redirect any other URL to index.html: no cache
 - url: /(.*)

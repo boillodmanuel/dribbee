@@ -1,6 +1,8 @@
 {
   "short_name": "Dribbee",
   "name": "Dribbee - Optimisez votre activité de service à domicile",
+  "description": "Dribbee utilise la localisation de vos clients pour vous aider au quotidien dans la prise de rendez-vous et dans vos déplacements",
+  "default_locale": "fr",
   "icons": [
     {
       "src": "images/logo_jdhe.png",

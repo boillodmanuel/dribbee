@@ -1170,6 +1170,7 @@ a.contact {
     }
 
     .s-section-1 .s-section .container .columns.s-rva-mobile {
+        text-align: center;
         display: block;
     }
 }

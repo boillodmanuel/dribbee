@@ -8,21 +8,20 @@ gcloud auth activate-service-account --key-file Dribbee-4239b92a047f.json
 gcloud app deploy
 ```
 
-
 # TODO
 
 - popup inscription timer, 
-- CONTENU - INDEXATION, PARTAGE, SITE
 
 # Done
 
 - google tag manager
 - mixpanel
-- audit web google, 
+- audit perf (lighthouse, https://www.webpagetest.org)
 - manifest.json
 - schema.org / json-ld
 - partage social
 - heatmap 
+- seo
 
 
 # Tracking
@@ -33,6 +32,11 @@ gcloud app deploy
 - Facebook: https://developers.facebook.com/apps/167294237262244/
 - Google Tag Manager: https://tagmanager.google.com
 - HeatMap: https://insights.hotjar.com/sites/820537
+
+# Partage
+
+- Twitter: https://dev.twitter.com/web/tweet-button/web-intent
+- Facebook: developers.facebook.com/docs/sharing/reference/share-dialog
 
 # Resources
 
