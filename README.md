@@ -32,11 +32,15 @@ gcloud app deploy
 - Facebook: https://developers.facebook.com/apps/167294237262244/
 - Google Tag Manager: https://tagmanager.google.com
 - HeatMap: https://insights.hotjar.com/sites/820537
+- Crisp: https://app.crisp.chat
 
 # Partage
 
 - Twitter: https://dev.twitter.com/web/tweet-button/web-intent
-- Facebook: developers.facebook.com/docs/sharing/reference/share-dialog
+- Facebook: 
+  - https://developers.facebook.com/docs/sharing/reference/share-dialog
+  - https://developers.facebook.com/tools/debug/sharing/?q=https%3A%2F%2Fdribbee.fr
+  - https://developers.facebook.com/tools/debug/og/object/
 
 # Resources
 

@@ -1149,8 +1149,9 @@ li.slide.s-first-visible-section .s-section {
     color: #34d2fd
 }
 
-a.contact {
+.contact {
     color: #1e93b3;
+    cursor: pointer;
 }
 
 .s-section {

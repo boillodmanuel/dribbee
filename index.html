@@ -42,6 +42,8 @@
       f.parentNode.insertBefore(j, f);
   })(window, document, 'script', 'dataLayer', 'GTM-KLZJ58W');</script>
   <!-- End Google Tag Manager -->
+  <!-- Crisp -->
+  <script>window.$crisp=[];$crisp.push(['do', 'chat:hide']);</script>
 
   <script type="application/ld+json">
 {
@@ -444,8 +446,10 @@
     </div>
     <div class="s-footer-text">
       <div class="s-component s-text s-animation-page-slide_in">
-        <div class="s-component-content s-font-body"><p style="text-align: center;">©2018 Dribbee. All Rights
-          Reserved. <a href="mailto:bonjour@dribbee.fr" class="contact">Contactez-nous.</a></p></div>
+        <div class="s-component-content s-font-body"><p style="text-align: center;">©2018 Dribbee. All Rights Reserved.
+          <!--<span class="contact" title="Live chat" onclick="$crisp.push(['do', 'chat:show']);$crisp.push(['do', 'chat:open']);">Live chat.</span>-->
+          <a href="mailto:bonjour@dribbee.fr" class="contact" title="Contactez-nous">Contactez-nous.</a>
+        </p></div>
       </div>
     </div>
   </div>
@@ -484,6 +488,8 @@
         if (isEmailValid(userEmail)) {
             dataLayer.push({'userEmail': userEmail, 'event': 'emailDefined'});
             mixpanel.track('Email defined', { userEmail: userEmail, delay: eventDelayInSecond});
+            $crisp.push(["set", "session:data", [[['userEmail', userEmail]]]]);
+            $crisp.push(["set", "user:email", userEmail]);
         } else {
             dataLayer.push({'userEmail': userEmail, 'event': 'emailNotValid'});
             mixpanel.track('Email not valid', { userEmail: userEmail, delay: eventDelayInSecond});
@@ -638,7 +644,19 @@ mixpanel.track("Open page");
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-
+<script type="text/javascript">window.CRISP_WEBSITE_ID="d957451a-afce-4575-a40c-cb9d577aa559";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+<script type="text/javascript">
+    // open chatbox after 2 min
+    window.CRISP_READY_TRIGGER = function () {
+      setTimeout(function () {
+        if ($crisp.get("session:data", 'welcomeMsgSent') !== true) {
+            $crisp.push(["do", "message:show", ["text", "Bonjour, puis-je vous aider ?"]]);
+            $crisp.push(["set", "session:data", [[['welcomeMsgSent', true]]]]);
+        }
+        $crisp.push(['do', 'chat:show']);
+      }, 120000);
+    };
+</script>
 
 </body>
 </html>
