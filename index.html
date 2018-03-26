@@ -646,7 +646,7 @@ mixpanel.track("Open page");
 </script>
 <script type="text/javascript">window.CRISP_WEBSITE_ID="d957451a-afce-4575-a40c-cb9d577aa559";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 <script type="text/javascript">
-    // open chatbox after 2 min
+    // open chatbox after delay
     window.CRISP_READY_TRIGGER = function () {
       setTimeout(function () {
         if ($crisp.get("session:data", 'welcomeMsgSent') !== true) {
@@ -654,7 +654,7 @@ mixpanel.track("Open page");
             $crisp.push(["set", "session:data", [[['welcomeMsgSent', true]]]]);
         }
         $crisp.push(['do', 'chat:show']);
-      }, 120000);
+      }, 90000);
     };
 </script>
 
