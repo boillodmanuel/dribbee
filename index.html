@@ -653,6 +653,7 @@ mixpanel.track("Open page");
             $crisp.push(["do", "message:show", ["text", "Bonjour, puis-je vous aider ?"]]);
             $crisp.push(["set", "session:data", [[['welcomeMsgSent', true]]]]);
         }
+        mixpanel.track("ChatboxOpenedAuto");
         $crisp.push(['do', 'chat:show']);
       }, 90000);
     };
