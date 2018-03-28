@@ -24,6 +24,10 @@ gcloud app deploy
 - seo
 
 
+# Advertising
+
+- Facebook Ads: - https://www.facebook.com/ads/manage/powereditor/manage/campaigns
+
 # Tracking
 
 - Google Analytics: https://analytics.google.com
