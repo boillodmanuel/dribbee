@@ -1,7 +1,7 @@
 {
   "short_name": "Dribbee",
   "name": "Dribbee - Optimisez votre activité de service à domicile",
-  "description": "Dribbee utilise la localisation de vos clients pour vous aider au quotidien dans la prise de rendez-vous et dans vos déplacements",
+  "description": "Dribbee utilise la localisation de vos clients pour vous aider à remplir votre planning tout en minimisant vos déplacements.",
   "default_locale": "fr",
   "icons": [
     {
